@@ -1,0 +1,9 @@
+.layout-sample .ant-layout-header {
+    color: white;
+}
+.layout-sample .ant-layout {
+    border: 2px red groove;
+}
+.layout-sample .ant-layout-sider {
+    color: white;
+}

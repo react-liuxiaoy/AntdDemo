@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ButtonSample from './sample/Buttons';
 import IconSample from './sample/Icons';
 import GridSample from './sample/Grids';
+import LayoutSample from './sample/Layouts';
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,11 +17,13 @@ class App extends Component {
                 <p className="App-intro">
                     To get started, edit <code>src/App.js</code> and save to reload.
                 </p>
-                <ButtonSample/>
+                <ButtonSample />
                 <br />
-                <IconSample/>
+                <IconSample />
                 <br />
-                <GridSample/>
+                <GridSample />
+                <br />
+                <LayoutSample />
             </div>
         );
     }
