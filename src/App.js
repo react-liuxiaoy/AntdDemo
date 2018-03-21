@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ButtonSample from './sample/Buttons';
 import IconSample from './sample/Icons';
+import GridSample from './sample/Grids';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,8 @@ class App extends Component {
                 <ButtonSample/>
                 <br />
                 <IconSample/>
+                <br />
+                <GridSample/>
             </div>
         );
     }

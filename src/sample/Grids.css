@@ -1,0 +1,17 @@
+.gutter-example .ant-row > div {
+    background: transparent;
+    border: 0;
+}
+.gutter-box {
+    background: #00A0E9;
+    padding: 5px 0;
+}
+.grid-sample .ant-col-18,.ant-col-12,.ant-col-8,.ant-col-6,.ant-col-4 {
+    background: #00A0E9;
+    border: white groove;
+    border-width: 0 0 2px 2px;
+}
+.grid-sample h4,h5 {
+    text-align: left;
+    margin-left: 20px;
+}
