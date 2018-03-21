@@ -16,30 +16,30 @@ export default class ButtonSample extends Component {
                     <Button type="dashed">Dashed</Button>
                     <Button type="danger">Danger</Button>
                 </div>
-                <br />
+                <h4 />
                 <div>
-                    <Button icon="search" shape="circle"/>
-                    <Button icon="search" shape="circle" type="primary"/>
-                    <Button icon="search"/>
+                    <Button icon="search" shape="circle" />
+                    <Button icon="search" shape="circle" type="primary" />
+                    <Button icon="search" />
                     <Button icon="search" type="primary">Search</Button>
                 </div>
-                <br />
+                <h4 />
                 <div>
                     <Button size="large">Large</Button>
                     <Button>Default</Button>
                     <Button size="small">Small</Button>
                 </div>
-                <br />
+                <h4 />
                 <div>
                     <Button disabled type="primary">Primary(disabled)</Button>
                     <Button disabled type="default">Default(disabled)</Button>
                     <Button disabled type="dashed">Dashed(disabled)</Button>
                     <Button disabled type="danger">Danger(disabled)</Button>
                 </div>
-                <br />
+                <h4 />
                 <div>
                     <Button loading>Loading</Button>
-                    <Button loading/>
+                    <Button loading />
                 </div>
                 <div style={{ background: 'rgb(190, 200, 200)', padding: '26px 16px 16px' }}>
                     <Button type="primary" ghost>Primary</Button>
