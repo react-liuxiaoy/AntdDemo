@@ -3,6 +3,7 @@ import ButtonSample from './sample/Buttons';
 import IconSample from './sample/Icons';
 import GridSample from './sample/Grids';
 import LayoutSample from './sample/Layouts';
+import NavigationSample from './sample/Navigations';
 import logo from './logo.svg';
 import './App.css';
 
@@ -24,6 +25,8 @@ class App extends Component {
                 <GridSample />
                 <br />
                 <LayoutSample />
+                <br />
+                <NavigationSample />
             </div>
         );
     }
